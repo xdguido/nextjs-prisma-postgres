@@ -18,6 +18,12 @@
                 // example of overriding a rule
                 "storybook/hierarchy-separator": "error"
             }
+        },
+        {
+            "files": ["*.js"],
+            "rules": {
+                "@typescript-eslint/no-var-requires": "off"
+            }
         }
     ],
     "parserOptions": {
